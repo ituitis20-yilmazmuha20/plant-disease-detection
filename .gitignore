@@ -2,3 +2,5 @@ DATASETS/merged_resized_pngs_splited_augmented/
 DATASETS/merged_resized_pngs_splited/
 DATASETS/merged
 DATASETS/merged_resized_pngs
+
+__pycache__/
