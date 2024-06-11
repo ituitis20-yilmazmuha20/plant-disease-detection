@@ -11,7 +11,7 @@ import os
 
 def train_base_model():
     BASE_PATH = "./"
-    DATA_DIR = 'DATASETS/merged_resized_pngs_splited_augmented'
+    DATA_DIR = 'DATASETS/merged_resized_pngs_splited'
     NUM_CLASSES = len(os.listdir(os.path.join(BASE_PATH, f"{DATA_DIR}/train")))
     NUM_EPOCHS = 30
     BATCH_SIZE = 32
@@ -91,6 +91,6 @@ def train_model_with_editted_classifier():
 if __name__ == "__main__":
     print("Training base model...")
     train_base_model()
-    print("Training model with edited classifier...")
-    train_model_with_editted_classifier()
+    #print("Training model with edited classifier...")
+    #train_model_with_editted_classifier()
     
